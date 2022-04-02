@@ -8,6 +8,10 @@ app.get('/metGet', (req: Request, res: Response) => {
     return res.send("Hello world metodo get nova rota")
 })
 
+app.get('/metGet:uuid', (req: Request, res: Response) => {
+    return res.send("metodo get pesquisar por uuid")
+})
+
 app.post('/metPost', (req: Request, res: Response) => {
     return res.send("Hello Metodo Poste")
 })
