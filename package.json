@@ -1,0 +1,22 @@
+{
+  "name": "nlw-6-trilha-node-proj-valoriza",
+  "version": "1.0.0",
+  "description": "Projeto valoriza",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "Jamisson Barbosa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "typeorm": "^0.3.4"
+  }
+}
