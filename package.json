@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "express": "^4.17.3",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.2",
     "typeorm": "^0.3.4"
   }
 }
